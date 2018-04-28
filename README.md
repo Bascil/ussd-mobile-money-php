@@ -30,29 +30,31 @@ Download the source code as zipped
 2. Configure the database connection using dbConnector.php file
 
 ``` 
-    <?php 
+<?php 
+     /* Configure Database */
+     
+     $conn = 'mysql:dbname=ussd_sample;host=127.0.0.1;'; //database name
+     $user = 'root'; // your mysql user 
+     $password = ''; // your mysql password
 
-    /* Configure Database */
-         $conn = 'mysql:dbname=ussd_sample;host=127.0.0.1;'; //database name
-         $user = 'root'; // your mysql user 
-         $password = ''; // your mysql password
+     //  Create a PDO instance that will allow you to access your database
+     try {
+        $db = new PDO($conn, $user, $password);
+     }
 
-         //  Create a PDO instance that will allow you to access your database
-         try {
-            $db = new PDO($conn, $user, $password);
-         }
+    catch(PDOException $e) {
+     //var_dump($e);
+        echo("PDO error occurred");
+    }
 
-        catch(PDOException $e) {
-         //var_dump($e);
-            echo("PDO error occurred");
-        }
+    catch(Exception $e) {
+    //var_dump($e);
+    echo("Error occurred");
+    }
+    
+?>
 
-        catch(Exception $e) {
-        //var_dump($e);
-        echo("Error occurred");
-        }
-        
-    ```
+```
 3. Go to "https://account.africastalking.com/". Create an account then click on the 'Go to Sandbox App' button
 
 4. In your sandbox account under USSD > Create Channel , pick a shared service code  such as *384* and a channel such as 1100(Be sure to take a unique channel which is not taken already)
@@ -67,6 +69,7 @@ Download the source code as zipped
 
 
 ## Usage
+
 ```
    
     $gateway = new AfricasTalkingGateway($username,$apikey,"sandbox");
@@ -88,6 +91,7 @@ Download the source code as zipped
 
 
 ## Usage
+
 ```
    
     $code = '20880';
