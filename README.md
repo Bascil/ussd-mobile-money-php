@@ -4,7 +4,7 @@ This is a PHP package for a mobile money solution on USSD based on the Africa's 
 
 ## Prerequisites
 
-For testing download Africas Talking android app from google playstore or use the web interface at https://simulator.africastalking.com:1517/
+For testing download Africas Talking android app from Google Playstore or use the web interface at https://simulator.africastalking.com:1517/
 
 
 ## Installation
@@ -12,52 +12,58 @@ For testing download Africas Talking android app from google playstore or use th
 This project supports both composer dependency management tool and can also be used without composer
 
 ### Using Composer
-1. Run the following command
+
+Run the following command
+
 ```
 composer require bascil/ussd-mobile-money-php
+
 ```
 ### Without composer
 
-1. Download the source code as zipped 
-
-2. Import the ussd_sample.sql file.Configure the database connection using dbConnector.php file
-``` 
-<?php 
-/* Configure Database */
-     $conn = 'mysql:dbname=ussd_sample;host=127.0.0.1;'; //database name
-     $user = 'root'; // your mysql user 
-     $password = ''; // your mysql password
-
-     //  Create a PDO instance that will allow you to access your database
-     try {
-        $db = new PDO($conn, $user, $password);
-     }
-
-    catch(PDOException $e) {
-     //var_dump($e);
-        echo("PDO error occurred");
-    }
-
-    catch(Exception $e) {
-    //var_dump($e);
-    echo("Error occurred");
-    }
-    
-```
-3. Go to "https://account.africastalking.com/" create an account then click on the 'Go to Sandbox App' button
+Download the source code as zipped 
 
 ## Configuration
 
-1. In your sandbox account under USSD > Create Channel , pick a shared service code  such as *384* and a channel such as 1100(Be sure to take a unique channel which is not taken already)
+1. Import the ussd_sample.sql file into MySQL database.
 
-2. Configure your callback url( the URL that points to your application) e.g www.example.com/folder_name/ussd.php then click 'Create channel'.This assumes you are working from a live server whose domain name is example.com.Replace the domain name with your own.
+2. Configure the database connection using dbConnector.php file
 
-3. If working from localhost you can set up a Ngrok server or Localtunnel to expose your localhost to the internet.Use the temporary URL provided as your callback e.g  http://6a71f5ec.ngrok.io/folder_name/ussd.php. This only works when the computer is on and connected to the internet.If using Ngrok free package this address may change every 8 hours. You could opt for a paid version at USD 5 a month.
+``` 
+    <?php 
 
+    /* Configure Database */
+         $conn = 'mysql:dbname=ussd_sample;host=127.0.0.1;'; //database name
+         $user = 'root'; // your mysql user 
+         $password = ''; // your mysql password
 
-4. Go to Settings > API key and enter your password to generate an API key Look for a file named `config.php` and set your username as 'sandbox' and the api key as the one youve generated
+         //  Create a PDO instance that will allow you to access your database
+         try {
+            $db = new PDO($conn, $user, $password);
+         }
 
-5. Configure a payment product (if working with mobile money).Payment products allow you to interact with our payment APIs. Go to Payments > Products to create a payment product for testing. 
+        catch(PDOException $e) {
+         //var_dump($e);
+            echo("PDO error occurred");
+        }
+
+        catch(Exception $e) {
+        //var_dump($e);
+        echo("Error occurred");
+        }
+        
+    ```
+3. Go to "https://account.africastalking.com/". Create an account then click on the 'Go to Sandbox App' button
+
+4. In your sandbox account under USSD > Create Channel , pick a shared service code  such as *384* and a channel such as 1100(Be sure to take a unique channel which is not taken already)
+
+5. Configure your callback url( the URL that points to your application) e.g www.example.com/folder_name/ussd.php then click 'Create channel'.This assumes you are working from a live server whose domain name is example.com.Replace the domain name with your own.
+
+6. If working from localhost you can set up a Ngrok server or Localtunnel to expose your localhost to the internet.Use the temporary URL provided as your callback e.g  http://6a71f5ec.ngrok.io/folder_name/ussd.php. This only works when the computer is on and connected to the internet.If using Ngrok free package this address may change every 8 hours. You could opt for a paid version at USD 5 a month.
+
+7. Go to Settings > API key and enter your password to generate an API key Look for a file named `config.php` and set your username as 'sandbox' and the api key as the one youve generated
+
+8. Configure a payment product (if working with mobile money).Payment products allow you to interact with our payment APIs. Go to Payments > Products to create a payment product for testing. 
 
 
 ## Usage
@@ -78,7 +84,7 @@ composer require bascil/ussd-mobile-money-php
 
 ```
 
-6. Configure a an SMS shortcode (if working with SMS).This allows sending of SMS notifications (for this case on sandbox mode). Go to SMS > Shortcodes > Create Shortcode to create an SMS shortcode for testing. 
+9. Configure a an SMS shortcode (if working with SMS).This allows sending of SMS notifications (for this case on sandbox mode). Go to SMS > Shortcodes > Create Shortcode to create an SMS shortcode for testing. 
 
 
 ## Usage
@@ -92,8 +98,10 @@ composer require bascil/ussd-mobile-money-php
     $gateway    = new AfricasTalkingGateway($username, $apikey,"sandbox");
 
 ```
+10. Now test the USSD application using Africas Talking android app downloaded from Google Playstore or use the web interface at https://simulator.africastalking.com:1517/
 
 ## API's Supported
+
 The code  is configure to to work with the Africa's Talking API and may support the following payment types
 
 
@@ -120,6 +128,7 @@ https://github.com/JaniKibichi/microfinance-ussd-app
 
 
 ## Support
+
 Need support using this package:-
 
 Email basilndoga@gmail.com or skype me at basilndonga. Feel free to call me on my cellphone number +254 728 986 084
