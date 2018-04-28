@@ -48,7 +48,7 @@ composer require bascil/ussd-mobile-money-php
 
 ## Configuration
 
-1. In your sandbox account under USSD > Create Channel , pick a shared service code  such as *384* and a channel such as 1100(i.e *384*1100# - Be sure to take a unique channel which is not taken already)
+1. In your sandbox account under USSD > Create Channel , pick a shared service code  such as *384* and a channel such as 1100(Be sure to take a unique channel which is not taken already)
 
 2. Configure your callback url( the URL that points to your application) e.g www.example.com/folder_name/ussd.php then click 'Create channel'.This assumes you are working from a live server whose domain name is example.com.Replace the domain name with your own.
 
@@ -124,7 +124,7 @@ Need support using this package:-
 
 Email basilndoga@gmail.com or skype me at basilndonga. Feel free to call me on my cellphone number +254 728 986 084
 
-If you widh to be added as a contributor to this project let me know.
+If you wish to be added as a contributor to this project let me know.
 
 ## License
 
