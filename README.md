@@ -52,7 +52,7 @@ composer require bascil/ussd-mobile-money-php
 
 2. Configure your callback url( the URL that points to your application) e.g www.example.com/folder_name/ussd.php then click 'Create channel'.This assumes you are working from a live server whose domain name is example.com.Replace the domain name with your own.
 
-3.If working from localhost you can set up a Ngrok server or Localtunnel to expose your localhost to the internet.Use the temporary URL provided as your callback e.g  http://6a71f5ec.ngrok.io/folder_name/ussd.php.This only works when the computer is on and connected to the internet.If using Ngrok free package this address may change every 8 hours. You could opt for a paid version at USD 5 a month.
+3. If working from localhost you can set up a Ngrok server or Localtunnel to expose your localhost to the internet.Use the temporary URL provided as your callback e.g  http://6a71f5ec.ngrok.io/folder_name/ussd.php. This only works when the computer is on and connected to the internet.If using Ngrok free package this address may change every 8 hours. You could opt for a paid version at USD 5 a month.
 
 
 4. Go to Settings > API key and enter your password to generate an API key Look for a file named `config.php` and set your username as 'sandbox' and the api key as the one youve generated
@@ -78,7 +78,7 @@ composer require bascil/ussd-mobile-money-php
 
 ```
 
-5. Configure a an SMS shortcode (if working with SMS).This allows sending of SMS notifications (for this case on sandbox mode). Go to SMS > Shortcodes > Create Shortcode to create an SMS shortcode for testing. 
+6. Configure a an SMS shortcode (if working with SMS).This allows sending of SMS notifications (for this case on sandbox mode). Go to SMS > Shortcodes > Create Shortcode to create an SMS shortcode for testing. 
 
 
 ## Usage
