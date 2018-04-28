@@ -1,6 +1,6 @@
 # PHP package for a mobile money solution on USSD
 
-This is a PHP package for a mobile money solution on USSD based on the Africa's Talking API.This is developed on sandbox(testing) mode. To go live contact Africa's Talking Ltd on https://www.africastalking.com/contact.
+This is a PHP package for a mobile money solution on USSD based on the Africa's Talking API.This is developed on sandbox (testing) mode. To go live contact Africa's Talking Ltd on https://www.africastalking.com/contact.
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ Download the source code as zipped
 ``` 
 <?php 
      /* Configure Database */
-     
+
      $conn = 'mysql:dbname=ussd_sample;host=127.0.0.1;'; //database name
      $user = 'root'; // your mysql user 
      $password = ''; // your mysql password
@@ -57,7 +57,7 @@ Download the source code as zipped
 ```
 3. Go to "https://account.africastalking.com/". Create an account then click on the 'Go to Sandbox App' button
 
-4. In your sandbox account under USSD > Create Channel , pick a shared service code  such as *384* and a channel such as 1100(Be sure to take a unique channel which is not taken already)
+4. In your sandbox account under USSD > Create Channel , pick a shared service code  such as *384* and a channel such as 1100 (Be sure to take a unique channel which is not taken already)
 
 5. Configure your callback url( the URL that points to your application) e.g www.example.com/folder_name/ussd.php then click 'Create channel'.This assumes you are working from a live server whose domain name is example.com.Replace the domain name with your own.
 
@@ -65,10 +65,10 @@ Download the source code as zipped
 
 7. Go to Settings > API key and enter your password to generate an API key Look for a file named `config.php` and set your username as 'sandbox' and the api key as the one youve generated
 
-8. Configure a payment product (if working with mobile money).Payment products allow you to interact with our payment APIs. Go to Payments > Products to create a payment product for testing. 
+8. Configure a payment product (if working with mobile money). Payment products allow you to interact with our payment APIs. Go to Payments > Products to create a payment product for testing. 
 
 
-## Usage
+### Usage
 
 ```
    
@@ -87,10 +87,10 @@ Download the source code as zipped
 
 ```
 
-9. Configure a an SMS shortcode (if working with SMS).This allows sending of SMS notifications (for this case on sandbox mode). Go to SMS > Shortcodes > Create Shortcode to create an SMS shortcode for testing. 
+9. Configure a an SMS shortcode (if working with SMS). This allows sending of SMS notifications (for this case on sandbox mode). Go to SMS > Shortcodes > Create Shortcode to create an SMS shortcode for testing. 
 
 
-## Usage
+### Usage
 
 ```
    
@@ -127,7 +127,7 @@ Find out more payment options at http://docs.africastalking.com/payments
 
 ## Inspiration
 
-This package was inspired by the work from Graham Ingokha(JaniKibichi) work on the following project:-
+This package was inspired by the work from Graham Ingokho (JaniKibichi) work on the following project:-
 https://github.com/JaniKibichi/microfinance-ussd-app
 
 
