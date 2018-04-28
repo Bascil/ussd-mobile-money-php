@@ -1,4 +1,4 @@
-# M-PESA API Package
+# PHP package for a mobile money solution on USSD
 
 This is a PHP package for a mobile money solution on USSD based on the Africa's Talking API.This is developed on sandbox(testing) mode. To go live contact Africas Taklking Ltd on https://www.africastalking.com/contact.
 
