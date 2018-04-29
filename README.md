@@ -63,7 +63,7 @@ Download the source code as zipped
 
 6. If working from localhost you can set up a Ngrok server or Localtunnel to expose your localhost to the internet.Use the temporary URL provided as your callback e.g  http://6a71f5ec.ngrok.io/folder_name/ussd.php. This only works when the computer is on and connected to the internet.If using Ngrok free package this address may change every 8 hours. You could opt for a paid version at USD 5 a month.
 
-7. Go to Settings > API key and enter your password to generate an API key Look for a file named `config.php` and set your username as 'sandbox' and the api key as the one youve generated
+7. Go to Settings > API key and enter your password to generate an API key. Look for a file named `config.php` and set your username as 'sandbox' and the api key as the one you have generated.
 
 8. Configure a payment product (if working with mobile money). Payment products allow you to interact with our payment APIs. Go to Payments > Products to create a payment product for testing. 
 
