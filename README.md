@@ -141,7 +141,7 @@ If you wish to be added as a contributor to this project let me know.
 
 ## License
 
-The M-Pesa Package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+The USSD Package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 Happy coding!!!!!!!
 
