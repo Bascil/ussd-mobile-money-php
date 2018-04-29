@@ -57,7 +57,7 @@ Download the source code as zipped
 ```
 3. Go to "https://account.africastalking.com/". Create an account then click on the 'Go to Sandbox App' button
 
-4. In your sandbox account under USSD > Create Channel , pick a shared service code  such as `*384*` and a channel such as 1100 (Be sure to take a unique channel which is not taken already)
+4. In your sandbox account under USSD > Create Channel , pick a shared service code  such as `*384*` and a channel such as 1100 i.e `*384*1100#` (Be sure to take a unique channel which is not taken already)
 
 5. Configure your callback url( the URL that points to your application) e.g www.example.com/folder_name/ussd.php then click 'Create channel'.This assumes you are working from a live server whose domain name is example.com.Replace the domain name with your own.
 
@@ -102,7 +102,7 @@ Download the source code as zipped
     $gateway    = new AfricasTalkingGateway($username, $apikey,"sandbox");
 
 ```
-10. Now test the USSD application using Africas Talking android app downloaded from Google Playstore or use the web interface at https://simulator.africastalking.com:1517/
+10. Now test the USSD application using Africas Talking android app downloaded from Google Playstore or use the web interface at https://simulator.africastalking.com:1517/ using the USSD code you configured i.e. `*384*1100#`
 
 ## API's Supported
 
