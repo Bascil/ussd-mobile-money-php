@@ -1,10 +1,10 @@
 # PHP package for a mobile money solution on USSD
 
-This is a PHP package for a mobile money solution on USSD based on the Africa's Talking API.This is developed on sandbox (testing) mode. To go live contact Africa's Talking Ltd on https://www.africastalking.com/contact.
+This is a PHP package for a mobile money solution on USSD based on the `Africa's Talking` API.This is developed on sandbox (testing) mode. To go live contact `Africa's Talking Ltd` on https://www.africastalking.com/contact.
 
 ## Prerequisites
 
-For testing download Africas Talking android app from Google Playstore or use the web interface at https://simulator.africastalking.com:1517/
+For testing download `Africa's Talking` android app from Google Playstore or use the web interface at https://simulator.africastalking.com:1517/
 
 
 ## Installation
@@ -65,7 +65,7 @@ Download the source code as zipped
 
 7. Go to `Settings > API key` and enter your password to generate an API key. Look for a file named `config.php` and set your username as `sandbox` and the api key as the one you have generated.
 
-8. Configure a payment product (if working with mobile money). Payment products allow you to interact with our payment APIs. Go to `Payments > Products` to create a payment product for testing. 
+8. Configure a payment product (if working with mobile money). Payment products allow you to interact with `Africa's Talking` payment APIs. Go to `Payments > Products` to create a payment product for testing. 
 
 
 ### Usage
@@ -102,11 +102,11 @@ Download the source code as zipped
     $gateway    = new AfricasTalkingGateway($username, $apikey,"sandbox");
 
 ```
-10. Now test the USSD application using Africas Talking android app downloaded from Google Playstore or use the web interface at https://simulator.africastalking.com:1517/ using the USSD code you configured i.e. `*384*1100#`
+10. Now test the USSD application using `Africa's Talking` android app downloaded from Google Playstore or use the web interface at https://simulator.africastalking.com:1517/ using the USSD code you configured i.e. `*384*1100#`
 
 ## API's Supported
 
-The code  is configure to to work with the Africa's Talking API and may support the following payment types
+The code  is configure to to work with the `Africa's Talking` API and may support the following payment types
 
 
 ### 1. [C2B](https://developer.safaricom.co.ke/docs#c2b-api)
