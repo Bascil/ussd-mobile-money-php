@@ -135,7 +135,7 @@ https://github.com/JaniKibichi/microfinance-ussd-app
 
 Need support using this package:-
 
-Email basilndoga@gmail.com or skype me at basilndonga. Feel free to call me on my cellphone number +254 728 986 084
+Email basilndoga@gmail.com or skype me at `basilndonga`. Feel free to call me on my cellphone number `+254 728 986 084`
 
 If you wish to be added as a contributor to this project let me know.
 
