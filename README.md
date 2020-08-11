@@ -14,7 +14,7 @@ This project supports both composer dependency management tool and can also be u
 * Run the following command to clone this repository
 
 ```
-git clone https://github.com/Bascil/ussd-mobile-money-php
+git clone https://github.com/Bascil/ussd-mobile-money-php.git
 
 ```
 OR
