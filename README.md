@@ -11,17 +11,15 @@ For testing download `Africa's Talking` android app from Google Playstore or use
 
 This project supports both composer dependency management tool and can also be used without composer
 
-### Using Composer
-
-Run the following command
+* Run the following command to clone this repository
 
 ```
-composer require bascil/ussd-mobile-money-php
+git clone https://github.com/Bascil/ussd-mobile-money-php
 
 ```
-### Without composer
+OR
 
-Download the source code as zipped 
+* Download the source code as zipped 
 
 ## Configuration
 
@@ -135,10 +133,11 @@ https://github.com/JaniKibichi/microfinance-ussd-app
 
 Need support using this package:-
 
-Email basilndoga@gmail.com or skype me at `basilndonga`. Feel free to call me on my cellphone number `+254 728 986 084`
+Email basilndonga@gmail.com or skype me at `basilndonga`. Feel free to call me on my cellphone number `+254 728 986 084`
 
-If you wish to be added as a contributor to this project let me know. If you wish to buy me a drink, paypal me through 
-simplebasil@gmail.com
+If you wish to be added as a contributor to this project let me know. If you wish to buy me a drink, paypal me through `simplebasil@gmail.com`
+
+If you wish to engage me as a developer for your project, feel free to contact me
 
 ## License
 
