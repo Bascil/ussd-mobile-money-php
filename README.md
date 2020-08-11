@@ -1,6 +1,6 @@
 # PHP package for a mobile money solution on USSD
 
-This is a PHP package for a mobile money solution on USSD based on the `Africa's Talking` API.This is developed on sandbox (testing) mode. To go live contact `Africa's Talking Ltd` on https://www.africastalking.com/contact.
+This is a PHP package for a mobile money solution on USSD based on the `Africa's Talking` API. This application has been developed on sandbox (testing) mode. To go live contact `Africa's Talking Ltd` on https://www.africastalking.com/contact.
 
 ## Prerequisites
 
