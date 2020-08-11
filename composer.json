@@ -1,19 +1,12 @@
 {
-    "name": "bascil/ussd-mobile-money-php",
-    "description": "This is a PHP package for a mobile money solution on USSD",
-    "type": "library",
-    "keywords": ["ussd", "mobile", "money", "mpesa"],
+    "name": "anzila/ussd-mobile-money-php",
+    "description": "PHP package for a mobile money solution on USSD",
     "license": "MIT",
     "authors": [
         {
-            "name": "Bascil",
+            "name": "Basil Ndonga",
             "email": "basilndonga@gmail.com"
         }
     ],
-   
-    "require": {
-        "php": ">=5.6.0"
-    },
-
-    "minimum-stability": "stable"
+    "require": {}
 }
