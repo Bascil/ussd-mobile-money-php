@@ -137,6 +137,8 @@ Email basilndonga@gmail.com or skype me at `basilndonga`. Feel free to call me o
 
 If you wish to be added as a contributor to this project let me know. If you wish to buy me a drink, paypal me through `simplebasil@gmail.com`
 
+If you were inspired by this project, don't forget to follow me on twitter `@basilndonga` and on github as well.
+
 If you wish to engage me as a developer for your project, feel free to contact me
 
 ## License
