@@ -128,7 +128,7 @@ Find out more payment options at http://docs.africastalking.com/payments
 
 ## Inspiration
 
-This package was inspired by the work from Graham Ingokho (JaniKibichi) work on the following project:-
+This package was inspired by the code from Graham Ingokho (JaniKibichi) based on the following project:-
 https://github.com/JaniKibichi/microfinance-ussd-app
 
 ## Linux Hosting
