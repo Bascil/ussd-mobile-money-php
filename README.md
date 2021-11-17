@@ -141,7 +141,7 @@ Need support using this package:-
 
 Email basilndonga@gmail.com or skype me at `basilndonga`.
 
-If you wish to be added as a contributor to this project let me know. If you wish to buy me a drink, you can support me on [patreon](https://www.patreon.com/bascil).
+If you wish to be added as a contributor to this project let me know. If you wish to buy me a coffee, you can support me on this [link](buymeacoffee.com/basilndonga).
 
 If you were inspired by this project, don't forget to follow me on github and on twitter `@basilndonga` as well.
 
